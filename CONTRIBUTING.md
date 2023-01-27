@@ -20,7 +20,7 @@ Use the following steps:
 python -m pip install --upgrade setuptools pip
 git clone https://github.com/jupyter-server/jupyter-releaser
 cd jupyter-releaser
-pip install -e .[test]
+pip install -e ".[test]"
 ```
 
 If you are using a system-wide Python installation and you only want to install the package for you,
